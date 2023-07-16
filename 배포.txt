@@ -1,0 +1,13 @@
+repository
+kurly_test 
+
+git init 
+git config user.name 'junelee717'
+git config user.email 'younjoo.lee7@gmail.com'
+
+git remote add origin git@github.com:junelee717/kurly_test.git
+git remote -v // 올라간 주소 확인
+
+git add .
+git commit -m 'kurly'
+git push origin master
